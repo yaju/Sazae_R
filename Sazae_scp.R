@@ -387,7 +387,7 @@ flg <- FALSE;
 row <- nrow(ytblptn);
 while(1) {
   i <- i + 1;
-  if(i == row - 1) break;
+  if(i == row + 1) break;
   
   if(oldYear != ytblptn$dt[i]){ 
     oldYear <- ytblptn$dt[i];
@@ -429,7 +429,7 @@ flg <- FALSE;
 row <- nrow(fightcnt);
 while(1) {
   i <- i + 1;
-  if(i == row - 1) break;
+  if(i == row + 1) break;
   
   if(oldYear != fightcnt$dt[i]){ 
     oldYear <- fightcnt$dt[i];
